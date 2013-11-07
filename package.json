@@ -4,7 +4,7 @@
   "description": "bud ===",
   "main": "index.js",
   "scripts": {
-    "test": "nodeunit indexTest.js"
+    "test": "jasmine-node --matchall spec.js"
   },
   "repository": {
     "type": "git",
